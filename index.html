@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brookside Homes | Luxury Homestay Retreat</title>
+  <meta name="description" content="Brookside Homes - A serene luxury homestay with curated rooms, premium dining and unforgettable mountain views." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="logo">Brookside <span>Homes</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn-nav">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-slides">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1561501900-3701fa6a0864?auto=format&fit=crop&w=1600&q=80');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=80');"></div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1600&q=80');"></div>
+    </div>
+    <div class="overlay"></div>
+    <div class="hero-content container reveal">
+      <p class="eyebrow">WELCOME TO BROOKSIDE HOMES</p>
+      <h1>Where comfort flows with nature.</h1>
+      <p>Discover a boutique homestay experience with handcrafted interiors, private balconies, and serene valley views.</p>
+      <a href="#contact" class="btn">Reserve Your Stay</a>
+    </div>
+  </section>
+
+  <section class="booking-bar">
+    <div class="container booking-grid">
+      <div>
+        <label>Check-in</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label>Check-out</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label>Guests</label>
+        <select>
+          <option>1 Adult</option>
+          <option>2 Adults</option>
+          <option>Family</option>
+        </select>
+      </div>
+      <button class="btn">Check Availability</button>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container two-col">
+      <div class="image-stack reveal">
+        <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80" alt="Elegant interior of Brookside Homes" />
+        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80" alt="Premium stay room" />
+      </div>
+      <div class="content reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2>Luxury Homestay with heartfelt hospitality.</h2>
+        <p>Nestled beside rolling greens and misty hills, Brookside Homes blends resort-style comfort with personalized homestay warmth. Every corner is designed to help you unwind, reconnect, and create memorable escapes.</p>
+        <ul>
+          <li>Curated rooms with modern comforts</li>
+          <li>Farm-to-table dining experiences</li>
+          <li>Local activity concierge & guided trails</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section rooms" id="rooms">
+    <div class="container">
+      <p class="eyebrow center">Accommodation</p>
+      <h2 class="center">Our Featured Rooms</h2>
+      <div class="card-grid">
+        <article class="room-card reveal">
+          <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80" alt="Deluxe Valley Room" />
+          <div class="card-body">
+            <h3>Deluxe Valley Room</h3>
+            <p>Panoramic balcony, king-sized bed, rain shower.</p>
+            <span>From ₹4,500 / night</span>
+          </div>
+        </article>
+        <article class="room-card reveal">
+          <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=900&q=80" alt="Brookside Suite" />
+          <div class="card-body">
+            <h3>Brookside Suite</h3>
+            <p>Private living area, handcrafted decor, bathtub.</p>
+            <span>From ₹6,900 / night</span>
+          </div>
+        </article>
+        <article class="room-card reveal">
+          <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?auto=format&fit=crop&w=900&q=80" alt="Family Chalet" />
+          <div class="card-body">
+            <h3>Family Chalet</h3>
+            <p>Two bedrooms, fireplace lounge, garden access.</p>
+            <span>From ₹8,200 / night</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section amenities" id="amenities">
+    <div class="container">
+      <p class="eyebrow center">Why Choose Us</p>
+      <h2 class="center">Resort-style amenities</h2>
+      <div class="amenity-grid">
+        <div class="amenity reveal"><h3>Spa & Wellness</h3><p>Rejuvenating therapies with organic wellness rituals.</p></div>
+        <div class="amenity reveal"><h3>Infinity Deck</h3><p>Sunset seating with mountain and brook views.</p></div>
+        <div class="amenity reveal"><h3>Fine Dining</h3><p>Seasonal menus featuring regional ingredients.</p></div>
+        <div class="amenity reveal"><h3>High-speed Wi-Fi</h3><p>Work-friendly spaces with uninterrupted connectivity.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <p class="eyebrow center">Moments at Brookside</p>
+      <h2 class="center">Gallery</h2>
+      <div class="gallery-grid">
+        <img class="reveal" src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=700&q=80" alt="Brookside room interior" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=700&q=80" alt="Elegant bedroom design" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?auto=format&fit=crop&w=700&q=80" alt="Dining setup" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1472220625704-91e1462799b2?auto=format&fit=crop&w=700&q=80" alt="Poolside area" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-details reveal">
+        <p class="eyebrow">Contact & Booking</p>
+        <h2>Plan your stay at Brookside Homes</h2>
+        <p><strong>Address:</strong> Brookside Hills, Near Pine Valley, Manali, Himachal Pradesh</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> reservations@brooksidehomes.com</p>
+
+        <a class="btn whatsapp" href="https://wa.me/919876543210?text=Hi%20Brookside%20Homes%2C%20I%20want%20to%20book%20a%20stay." target="_blank" rel="noopener noreferrer">
+          Chat on WhatsApp
+        </a>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          title="Brookside Homes Location"
+          src="https://www.google.com/maps?q=Manali%20Himachal%20Pradesh&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© 2026 Brookside Homes. Crafted for elevated stays.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
